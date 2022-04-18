@@ -1,0 +1,32 @@
+ubuntu@controller:~$ systemctl | grep -i active | grep -i microstack
+  run-snapd-ns-microstack.mnt.mount                                                   loaded active mounted   /run/snapd/ns/microstack.mnt                                                 
+  snap-microstack-242.mount                                                           loaded active mounted   Mount unit for microstack, revision 242                                      
+  snap.microstack.cinder-scheduler.service                                            loaded active running   Service for snap application microstack.cinder-scheduler                     
+  snap.microstack.cinder-uwsgi.service                                                loaded active running   Service for snap application microstack.cinder-uwsgi                         
+  snap.microstack.cluster-uwsgi.service                                               loaded active running   Service for snap application microstack.cluster-uwsgi                        
+  snap.microstack.glance-api.service                                                  loaded active running   Service for snap application microstack.glance-api                           
+  snap.microstack.horizon-uwsgi.service                                               loaded active running   Service for snap application microstack.horizon-uwsgi                        
+  snap.microstack.keystone-uwsgi.service                                              loaded active running   Service for snap application microstack.keystone-uwsgi                       
+  snap.microstack.libvirtd.service                                                    loaded active running   Service for snap application microstack.libvirtd                             
+  snap.microstack.memcached.service                                                   loaded active running   Service for snap application microstack.memcached                            
+  snap.microstack.mysqld.service                                                      loaded active running   Service for snap application microstack.mysqld                               
+  snap.microstack.neutron-api.service                                                 loaded active running   Service for snap application microstack.neutron-api                          
+  snap.microstack.neutron-ovn-metadata-agent.service                                  loaded active running   Service for snap application microstack.neutron-ovn-metadata-agent           
+  snap.microstack.nginx.service                                                       loaded active running   Service for snap application microstack.nginx                                
+  snap.microstack.nova-api-metadata.service                                           loaded active running   Service for snap application microstack.nova-api-metadata                    
+  snap.microstack.nova-api.service                                                    loaded active running   Service for snap application microstack.nova-api                             
+  snap.microstack.nova-compute.service                                                loaded active running   Service for snap application microstack.nova-compute                         
+  snap.microstack.nova-conductor.service                                              loaded active running   Service for snap application microstack.nova-conductor                       
+  snap.microstack.nova-scheduler.service                                              loaded active running   Service for snap application microstack.nova-scheduler                       
+  snap.microstack.nova-spicehtml5proxy.service                                        loaded active running   Service for snap application microstack.nova-spicehtml5proxy                 
+  snap.microstack.ovn-controller.service                                              loaded active running   Service for snap application microstack.ovn-controller                       
+  snap.microstack.ovn-northd.service                                                  loaded active running   Service for snap application microstack.ovn-northd                           
+  snap.microstack.ovn-ovsdb-server-nb.service                                         loaded active running   Service for snap application microstack.ovn-ovsdb-server-nb                  
+  snap.microstack.ovn-ovsdb-server-sb.service                                         loaded active running   Service for snap application microstack.ovn-ovsdb-server-sb                  
+  snap.microstack.ovs-vswitchd.service                                                loaded active running   Service for snap application microstack.ovs-vswitchd                         
+  snap.microstack.ovsdb-server.service                                                loaded active running   Service for snap application microstack.ovsdb-server                         
+  snap.microstack.placement-uwsgi.service                                             loaded active running   Service for snap application microstack.placement-uwsgi                      
+  snap.microstack.rabbitmq-server.service                                             loaded active running   Service for snap application microstack.rabbitmq-server                      
+  snap.microstack.virtlogd.service                                                    loaded active running   Service for snap application microstack.virtlogd                             
+ubuntu@controller:~$ sudo shutdown
+
