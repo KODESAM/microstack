@@ -29,4 +29,4 @@ ubuntu@controller:~$ systemctl | grep -i active | grep -i microstack
   snap.microstack.rabbitmq-server.service                                             loaded active running   Service for snap application microstack.rabbitmq-server                      
   snap.microstack.virtlogd.service                                                    loaded active running   Service for snap application microstack.virtlogd                             
 ubuntu@controller:~$ sudo shutdown
-
+ 123456§
